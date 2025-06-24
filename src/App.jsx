@@ -1,12 +1,15 @@
+import Navbar from "./components/Navbar"
+import Home from "./pages/Home"
 
 function App() {
 
-
   return (
     <>
-    <div className="flex justify-center items-center h-screen bg-bg">
-  <h1 className="text-7xl font-bold  text-primary">Welcome to Gaming Hub</h1>
-    </div>
+    <main className="h-screen bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e]">
+      <Navbar/>
+      <Home />
+      
+    </main>
    
     </>
   )
