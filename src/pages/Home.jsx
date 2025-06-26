@@ -5,7 +5,7 @@ import GamesList from '../components/GamesList';
 
 const Home = () => {
   return (
-    <section className=' h-[80vh]'>
+    <section className=' h-screen'>
         <div className="container">
         <div className=' space-y-5 text-center'>   
           <h1 className="text-primary  animate-bounce-cool" >Dominate the Gameverse</h1>
