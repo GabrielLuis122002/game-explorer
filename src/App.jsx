@@ -1,13 +1,18 @@
 import Navbar from "./components/Navbar"
+import About from "./pages/About"
 import Home from "./pages/Home"
 
 function App() {
 
   return (
     <>
-    <main className="h-screen bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e]">
+    <main>
+      <section className="bg-gradient">
       <Navbar/>
       <Home />
+      </section>
+
+      <About />
       
     </main>
    
